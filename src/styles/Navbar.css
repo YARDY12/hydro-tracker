@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #FFF1E6; /* Color de fondo similar al de .history */
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: #F78F8F; /* Color del texto similar al de los encabezados en .history */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: #FFF0F0; /* Color de fondo similar a los elementos li en .history */
+}
+
+.navbar a:hover {
+    background-color: #FFB3BA; /* Color al pasar el ratón similar al hover en .history li */
+}

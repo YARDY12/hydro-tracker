@@ -1,0 +1,57 @@
+.water-log {
+    padding: 16px;
+    border: 1px solid #F2D7D5; /* Borde igual al de .history */
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: #FFF1E6; /* Fondo similar al de .history */
+}
+
+.water-log form {
+    display: flex;
+    flex-direction: column;
+}
+
+.water-log label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #F78F8F; /* Texto con color similar al encabezado de .history */
+}
+
+.water-log input {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #F2D7D5; /* Borde similar al de .history */
+    border-radius: 4px;
+    background-color: #FFF0F0; /* Fondo similar al de los elementos li en .history */
+}
+
+.water-log button {
+    padding: 8px;
+    background-color: #F78F8F; /* Color similar al encabezado de .history */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.water-log button:hover {
+    background-color: #FFB3BA; /* Color de hover similar al de .history li */
+}
+
+.fixed-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixed-buttons button {
+    flex: 1;
+    margin: 4px;
+    background-color: #FFF0F0; /* Fondo similar al de los elementos li en .history */
+    border: 1px solid #F2D7D5; /* Borde igual al de .history */
+    color: #F78F8F; /* Texto similar al encabezado de .history */
+}
+
+.fixed-buttons button:hover {
+    background-color: #FFB3BA; /* Hover similar al de .history li */
+}

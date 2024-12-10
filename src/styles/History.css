@@ -1,0 +1,31 @@
+.history {
+    padding: 16px;
+    border: 1px solid #F2D7D5;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: #FFF1E6;
+}
+
+.history h2 {
+    margin-bottom: 8px;
+    color: #F78F8F;
+}
+
+.history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history li {
+    padding: 8px;
+    border-bottom: 1px solid #F2D7D5;
+    background-color: #FFF0F0;
+}
+
+.history li:last-child {
+    border-bottom: none;
+}
+
+.history li:hover {
+    background-color: #FFB3BA;
+}

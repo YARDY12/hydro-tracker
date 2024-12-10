@@ -1,0 +1,48 @@
+.goal-setter {
+    padding: 16px;
+    border: 1px solid #F2D7D5;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: #FFF1E6;
+}
+
+.goal-setter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.goal-setter label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #F78F8F;
+}
+
+.goal-setter input {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #F2D7D5;
+    border-radius: 4px;
+    background-color: #FFF0F0;
+}
+
+.goal-setter button {
+    padding: 8px;
+    background-color: #FFB3BA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.goal-setter button:hover {
+    background-color: #FF7F7F;
+}
+
+.reset-button {
+    background-color: #FFDAB9;
+}
+
+.reset-button:hover {
+    background-color: #FFB347;
+}

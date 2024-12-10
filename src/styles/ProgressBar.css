@@ -1,0 +1,35 @@
+.progress-bar {
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #FFF1E6; /* Fondo similar al de .history */
+    border: 1px solid #F2D7D5; /* Borde igual al de .history */
+    border-radius: 8px;
+}
+
+.progress-bar .progress {
+    width: 100%;
+    background-color: #FFF0F0; /* Fondo similar a los elementos .history li */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-bar .progress .progress-value {
+    height: 24px;
+    background-color: #F78F8F; /* Color de progreso similar al encabezado de .history */
+    width: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-bar .progress-text {
+    margin-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #F78F8F; /* Texto con color similar al encabezado de .history */
+}
+
+.progress-bar .goal-reached {
+    margin-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFB3BA; /* Texto con color de hover de .history li */
+}
